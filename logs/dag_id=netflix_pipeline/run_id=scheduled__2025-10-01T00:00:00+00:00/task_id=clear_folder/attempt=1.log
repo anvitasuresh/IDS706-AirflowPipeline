@@ -1,0 +1,5 @@
+{"timestamp":"2025-11-04T04:07:32.470905Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-04T04:07:32.471139Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dags.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-04T04:07:32.482735Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/dags.py","lineno":5,"logger":"py.warnings"}
+{"timestamp":"2025-11-04T04:07:32.490158Z","level":"info","event":"Clean process completed!","logger":"task.stdout"}
+{"timestamp":"2025-11-04T04:07:32.490154Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":218}
