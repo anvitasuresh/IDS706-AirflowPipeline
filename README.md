@@ -17,8 +17,8 @@ Kaggle source: https://www.kaggle.com/datasets/sayeeduddin/netflix-2025user-beha
 
 ## Pipeline Architecture (DAG)
 
-DAG ID: `netflix_pipeline`
-Schedule: One-time execution (@once)
+DAG ID: `netflix_pipeline` <br>
+Schedule: One-time execution (@once) <br>
 Orchestration:
 - Users data and watch history data are processed in parallel
 - Merged before loading to PostgreSQL
